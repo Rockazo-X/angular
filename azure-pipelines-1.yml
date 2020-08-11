@@ -17,6 +17,10 @@ steps:
     version: '4.2'
     cmd: 'oc start-build angular --follow'
 
+- task: Npm@1
+  inputs:
+    command: 'install'
+
 - task: oc-cmd@2
   inputs:
     connectionType: 'OpenShift Connection Service'

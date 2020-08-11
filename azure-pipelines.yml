@@ -16,3 +16,9 @@ steps:
     openshiftService: 'mi conexion demo'
     version: '4.2'
     cmd: 'oc start-build nodejs-ex --follow'
+- task: oc-cmd@2
+  inputs:
+    connectionType: 'OpenShift Connection Service'
+    openshiftService: 'mi conexion demo'
+    version: '4.2'
+    cmd: 'oc status'

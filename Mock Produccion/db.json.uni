@@ -1,0 +1,113 @@
+{
+  "Persona": [
+    {
+      "id": "1",
+      "rut": "18827333-6",
+      "nombre": "Salvador Allende",
+      "edad": "18",
+      "sexo": "Masculino",
+      "cargos": [
+        {
+          "cargo": "Presidente"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "rut": "14322323-6",
+      "nombre": "Manuel Rodríguez.",
+      "edad": "18",
+      "sexo": "Masculino",
+      "cargos": [
+        {
+          "cargo": "Guerrillero"
+        },
+        {
+          "cargo": "Abogado"
+        },
+        {
+          "cargo": "Politico"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "rut": "22232343-6",
+      "nombre": "Pablo Neruda",
+      "edad": "18",
+      "sexo": "Masculino",
+      "cargos": [
+        {
+          "cargo": "Poeta"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "rut": "17432563-6",
+      "nombre": "Violeta Parra",
+      "edad": "18",
+      "sexo": "Femenino",
+      "cargos": [
+        {
+          "cargo": "Cantautora"
+        },
+        {
+          "cargo": "Pintora"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "rut": "4882223-6",
+      "nombre": "Gabriela Mistral",
+      "edad": "18",
+      "sexo": "Femenino",
+      "cargos": [
+        {
+          "cargo": "Poetisa"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "rut": "18827333-6",
+      "nombre": "Victor Jara",
+      "edad": "18",
+      "sexo": "Masculino",
+      "cargos": null
+    }
+  ],
+  "Documento": [
+    {
+      "id": "120",
+      "tipo": "Documento legal",
+      "fecha emision": "10-10-2020",
+      "formato": "PDF"
+    },
+    {
+      "id": "121",
+      "tipo": "Documento legal",
+      "fecha emision": "10-11-2019",
+      "formato": "Excel"
+    },
+    {
+      "id": "122",
+      "tipo": "Documento legal",
+      "fecha emision": "31-01-1992",
+      "formato": "JPG"
+    },
+    {
+      "id": "123",
+      "tipo": "Documento informal",
+      "fecha emision": "23-11-1987",
+      "formato": "JPG"
+    },
+    {
+      "id": "124",
+      "tipo": "Documento formal",
+      "fecha emision": "17-08-1987",
+      "formato": "JPG"
+    }
+  ]
+}

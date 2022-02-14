@@ -1,0 +1,18 @@
+{
+    "microservicios": [
+        {
+            "nombre": "unificado-general-service",
+            "urlDesarrollo": "http://unificado-general-service-desa.appsdesa.ocp.pjud/",
+            "urlTest": "http://unificado-general-service-test.appsdesa.ocp.pjud/",
+            "Documentacion":"http://unificado-general-service-test.appsdesa.ocp.pjud/swagger-ui.html", 
+            "celula": "celula arquitectura"
+        },
+        {
+            "nombre": "unificado-xls-service",
+            "urlDesarrollo": "http://unificado-xls-service-desa.appsdesa.ocp.pjud/",
+            "urlTest": "http://unificado-xls-service-test.appsdesa.ocp.pjud/",
+            "Documentacion":"http://unificado-xls-service-test.appsdesa.ocp.pjud/swagger-ui.html", 
+            "celula": "Célula Remisión"
+        }
+    ]
+}

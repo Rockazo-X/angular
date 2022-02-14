@@ -1,0 +1,18 @@
+{
+    "microservicios": [
+        {
+            "nombre": "unificado-general-service",
+            "urlDesarrollo": "http://unificado-general-service.produccion",
+            "urlTest": "http://unificado-general-service-test.produccion",
+            "Documentacion":"http://unificado-general-service.produccion/swagger-ui.html", 
+            "celula": "Proyecto unificado"
+        },
+        {
+            "nombre": "unificado-xls-service",
+            "urlDesarrollo": "http://unificado-xls-service.produccion/",
+            "urlTest": "http://unificado-xls-service.produccion/",
+            "Documentacion":"http://unificado-xls-service.produccion/swagger-ui.html", 
+            "celula": "Proyecto unificado"
+        }
+    ]
+}

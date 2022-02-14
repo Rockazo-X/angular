@@ -1,0 +1,20 @@
+<h1>Microservicios <small> proyecto unificado</small></h1>
+<hr>
+
+<div class="card-columns">
+
+    <div class="card" *ngFor="let microservicio of microservicios | async ">
+        
+        <div class="card-body">
+            <h4 class="card-title">{{ microservicio.nombre }}</h4>
+            <p class="card-text"><small class="text-muted"> <a href='{{ microservicio.urlDesarrollo }}'> URL-Desarrollo </a></small></p>
+            <p class="card-text"><small class="text-muted"> <a href='{{ microservicio.urlTest }}'> URL-Test </a></small></p>
+            <p class="card-text"><small class="text-muted"> <a href='{{ microservicio.Documentacion  }}'> Documentacion </a></small></p>
+            <p class="card-text"><small class="text-muted"> {{ microservicio.celula }} </small></p>
+
+            <button (click)="verHeroe(id)" type="button" class="btn btn-outline-primary btn-block">Ver más...</button>
+            <!-- <a [routerLink]="['/heroe',id]" class="btn btn-outline-primary">Ver más link...</a> -->
+        </div>
+    </div>
+
+</div>
